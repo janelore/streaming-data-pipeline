@@ -24,7 +24,11 @@ reword confusing descriptions in a way that makes sense to you.
 
 #### What is Apache Spark?
 * Helpful resource: [Spark Overview](https://www.youtube.com/watch?v=ymtq8yjmD9I) 
-
+open source, data processing engine; stores and processes data in real time across various clusters of computers;
+processing happens in memory, so it's really fast;
+relies on Resilient Distributed Datasets - think list of tuples;
+transformations;
+actions;
 #### What is distributed data processing? How does it relate to Apache Spark?  
 [Apache Spark for Beginners](https://medium.com/@aristo_alex/apache-spark-for-beginners-d3b3791e259e)
 
