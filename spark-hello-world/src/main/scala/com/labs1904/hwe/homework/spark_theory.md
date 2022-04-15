@@ -31,11 +31,13 @@ transformations;
 actions;
 #### What is distributed data processing? How does it relate to Apache Spark?  
 [Apache Spark for Beginners](https://medium.com/@aristo_alex/apache-spark-for-beginners-d3b3791e259e)
-
+Resilient, fault-tolerant, able to recompute missing or damaged partitions due to node failures.
+Distributed with data residing on multiple nodes in a cluster.
+Dataset is a collection of partitioned data with primitive values or values of values, e.g. tuples or other objects (that represent records of the data you work with).
 #### On the physical side of a spark cluster, you have a driver and executors. Define each and give an example of how they work together to process data
 
 #### Define each and explain how they are different from each other 
-* RDD (Resilient Distributed Dataset)
+* RDD (Resilient Distributed Dataset)- primary data abstraction in Spark, fault-tolerant, distributed over multiple nodes
 * DataFrame
 * DataSet
 
